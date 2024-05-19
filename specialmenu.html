@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Menu</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/specialmenu.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card mx-auto" style="max-width: 400px;">
+            <div class="card-body">
+                <h1 class="card-title text-center">Custom Coffee</h1>
+                <div class="row" id="ingredients">
+                    <div class="col-6 mb-4">
+                        <div class="ingredient" data-price="2" data-name="Coffee">
+                            <img src="coffee.png" class="img-fluid ingredient-img" alt="Coffee">
+                            <p class="text-center">Coffee ($2)</p>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="ingredient" data-price="1" data-name="Milk">
+                            <img src="milk.png" class="img-fluid ingredient-img" alt="Milk">
+                            <p class="text-center">Milk ($1)</p>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="ingredient" data-price="0.5" data-name="Foam">
+                            <img src="foam.png" class="img-fluid ingredient-img" alt="Foam">
+                            <p class="text-center">Foam ($0.5)</p>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="ingredient" data-price="1.5" data-name="Cream">
+                            <img src="cream.png" class="img-fluid ingredient-img" alt="Cream">
+                            <p class="text-center">Cream ($1.5)</p>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="ingredient" data-price="1" data-name="Chocolate">
+                            <img src="chocolate.png" class="img-fluid ingredient-img" alt="Chocolate">
+                            <p class="text-center">Chocolate ($1)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-card bg-light p-3 mt-3">
+                    <div id="final-product" class="mb-3">
+                        <img src="coffee-placeholder.png" alt="Your coffee" class="img-fluid" id="product-image">
+                    </div>
+                    <div id="order-details">
+                        <p id="order-name">Ingredients: None</p>
+                        <p id="order-price">Total Price: $0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/specialmenu.js"></script>
+</body>
+</html>

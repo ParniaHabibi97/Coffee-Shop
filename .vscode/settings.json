@@ -1,3 +1,4 @@
 {
-    "workbench.colorTheme": "Material Theme"
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern"
 }

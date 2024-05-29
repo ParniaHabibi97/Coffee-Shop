@@ -38,17 +38,17 @@ document.addEventListener('DOMContentLoaded', () => {
         let imageSrc = 'coffee-placeholder.png';
 
         if (ingredientNames.includes('Coffee') && ingredientNames.includes('Milk')) {
-            imageSrc = 'latte.png';
+            imageSrc = 'images/Latte.jpg';
         } else if (ingredientNames.includes('Coffee') && ingredientNames.includes('Foam')) {
-            imageSrc = 'cappuccino.png';
+            imageSrc = 'images/Cappuccino.jpg';
         } else if (ingredientNames.includes('Coffee') && ingredientNames.includes('Chocolate')) {
-            imageSrc = 'mocha.png';
+            imageSrc = 'images/Mocha.jpg';
         } else if (ingredientNames.includes('Coffee') && ingredientNames.includes('Milk') && ingredientNames.includes('Chocolate')) {
-            imageSrc = 'mocha-latte.png';
+            imageSrc = 'images/Mocha-latte.jpg';
         } else if (ingredientNames.includes('Coffee') && ingredientNames.includes('Cream')) {
-            imageSrc = 'irish-coffee.png';
+            imageSrc = 'images/Irish-coffee.jpg';
         } else if (ingredientNames.length === 1 && ingredientNames.includes('Coffee')) {
-            imageSrc = 'black-coffee.png';
+            imageSrc = 'images/Black-coffee.jpg';
         }
 
         productImage.src = imageSrc;

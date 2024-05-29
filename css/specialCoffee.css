@@ -21,6 +21,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s;
     margin-bottom: 10px;
+    border-radius: 17px;
 }
 
 .ingredient-img:hover {

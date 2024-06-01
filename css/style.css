@@ -692,6 +692,7 @@ html, body{ height: 100%; }
   display: block;
   width: 100%;
   height: auto;
+  filter: blur(7px) ;
 }
 .special-box .owl-theme .owl-controls{
 	margin:0px;
@@ -728,7 +729,8 @@ html, body{ height: 100%; }
     -moz-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
-	bottom:0px;
+	bottom:35%;
+    left:10%;
 }
 
 .item-type-zoom .item-info .headline {

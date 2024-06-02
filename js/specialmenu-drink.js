@@ -1,14 +1,14 @@
 function updateCoffeePicture() {
     const ingredient = document.getElementById('ingredient-select').value;
     const coffeeImage = document.getElementById('coffee-image');
-    if (ingredient === 'latte') {
-        coffeeImage.src = 'images/Latte-coffee.jpg';
-    } else if (ingredient === 'Americano') {
-        coffeeImage.src = 'images/Americano.jpg';
-    } else if (ingredient === 'mocha') {
-        coffeeImage.src = 'images/Mocha-coffee.jpg';
-    } else if (ingredient === 'Affogato') {
-        coffeeImage.src = 'images/Affogato-coffee.jpg';
+    if (ingredient === 'lemonade') {
+        coffeeImage.src = 'images/lemonade-drink.jpg';
+    } else if (ingredient === 'orange') {
+        coffeeImage.src = 'images/orange-drink.jpg';
+    } else if (ingredient === 'strawberry') {
+        coffeeImage.src = 'images/strawberry-drink.jpg';
+    } else if (ingredient === 'pineapple') {
+        coffeeImage.src = 'images/pineapple-drink.jpg';
     } else {
         coffeeImage.src = 'images/Coffee.jpg';
     }

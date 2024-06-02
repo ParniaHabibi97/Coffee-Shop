@@ -10,7 +10,7 @@ function updateCoffeePicture() {
     } else if (ingredient === 'Vanilla') {
         coffeeImage.src = 'images/vanilla-milkshake.jpg';
     } else {
-        coffeeImage.src = 'images/Coffee.jpg';
+        coffeeImage.src = 'images/milkshake.jpg';
     }
 }
 

@@ -10,7 +10,7 @@ function updateCoffeePicture() {
     } else if (ingredient === 'pineapple') {
         coffeeImage.src = 'images/pineapple-drink.jpg';
     } else {
-        coffeeImage.src = 'images/Coffee.jpg';
+        coffeeImage.src = 'images/drink.jpg';
     }
 }
 

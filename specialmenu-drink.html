@@ -6,50 +6,50 @@
     <title>Coffee Shop Menu</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/specialmenu-milkshake.css">
+    <link rel="stylesheet" href="css/specialmenu-drink.css">
 </head>
 <body>
 
 <div class="container mt-5">
     <div class="menu-card row">
-        <h1 class="col-12">Milkshake</h1>
+        <h1 class="col-12">Coffee</h1>
         <div class="ingredients col-md-6">
             <h3>Select Ingredient:</h3>
             <select id="ingredient-select" class="form-control" onchange="updateCoffeePicture()">
                 <option value="default">-- Select --</option>
-                <option value="Bannana">Bannana</option>
-                <option value="Chocolate">Chocolate</option>
-                <option value="Strawberry">Strawberry</option>
-                <option value="Vanilla">Vanilla</option>
+                <option value="lemonade">lemonade</option>
+                <option value="orange">orange</option>
+                <option value="strawberry">strawberry</option>
+                <option value="pineapple">pineapple</option>
             </select>
         </div>
         <div class="coffee-picture col-md-6 text-center">
             <img id="coffee-image" src="images/Coffee.jpg" alt="Coffee">
         </div>
         <div class="col-12 mt-4">
-            <h3>What else do you want to add to your milkshake?</h3>
+            <h3>What else do you want to add to your coffee?</h3>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="chocolate" value="chocolate">
                 <label class="form-check-label" for="chocolate">Whipped cream</label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="syrup" value="syrup">
-                <label class="form-check-label" for="syrup">Sprinkels</label>
+                <label class="form-check-label" for="syrup">Foam</label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="syrup" value="syrup">
-                <label class="form-check-label" for="syrup">Melted chocolate</label>
+                <label class="form-check-label" for="syrup">Syrup</label>
             </div>
         </div>
         <div class="col-12 mt-4">
-            <h2>How do you like your milkshake to be served?</h2>
+            <h2>How do you like your coffee to be served?</h2>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="serveOption" id="takeaway" value="takeaway">
-                <label class="form-check-label" for="takeaway">glass</label>
+                <label class="form-check-label" for="takeaway">Takeaway</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="serveOption" id="glass" value="glass">
-                <label class="form-check-label" for="glass">takeaway</label>
+                <label class="form-check-label" for="glass">Glass</label>
             </div>
         </div>
         <div class="col-12 mt-3">
@@ -59,7 +59,7 @@
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="temperatureOption" id="hot" value="hot">
-                <label class="form-check-label" for="hot">with ice</label>
+                <label class="form-check-label" for="hot">Hot</label>
             </div>
         </div>
         <div class="col-12 mt-3">
@@ -75,7 +75,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<script src="js/specialmenu-milkshake.js"></script>
+<script src="js/specialmenu-drink.js"></script>
 
 </body>
 </html>
